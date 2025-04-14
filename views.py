@@ -12,7 +12,7 @@ def display_vehicles(vehicles):
     if not vehicles:
         print("No vehicles available.")
     else:
-        print("\n🚗 Vehicle List:")
+        print("\n Vehicle List:")
         for vehicle in vehicles:
             print(vehicle.describe())
 
